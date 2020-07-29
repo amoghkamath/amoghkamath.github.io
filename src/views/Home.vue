@@ -1,8 +1,8 @@
 <template>
   <div class="home_parent">
     <div class="home">
-      <h1>Hello. My name is <span style="color: #6928ef">Amogh Bozcni#k.</span></h1>
-      <h1>I take useless photography</h1>
+      <h1><span style="color: #6928ef">Amogh Kamath.</span></h1>
+      <h4>Entrepreneur. photographer. Traveller.</h4>
       <p @click="scrollDown">Let me show you...</p>
     </div>
     <div class="about">
@@ -99,6 +99,13 @@ export default {
     flex-direction: column;
     justify-content: center;
     h1 {
+      font-size: calc(32px + 28*(100vw - 320px)/1120);
+      color: white;
+      margin: 20px auto 0px 0px;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+    }
+    h4 {
       font-size: 40px;
       color: white;
       margin: 20px auto 0px 0px;
