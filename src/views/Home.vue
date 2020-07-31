@@ -236,6 +236,21 @@ export default {
     padding: 10px 20px;
   }
 
+  @media (max-width: 767px) {
+    #aboutme {
+      padding: 100px 50px 150px;
+    }
+    #aboutme h2 {
+      font-size: 1.8em;
+    }
+    #aboutme p {
+      font-size: 1em;
+    }
+    #aboutme a {
+      font-size: 1em;
+    }
+  }
+
 
   .food {
     background: url('https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80');
